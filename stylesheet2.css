@@ -1,116 +1,146 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Light background color */
-    color: #333; /* Dark text color */
+  font-family: "Avenir Next";
 }
 
-header {
-    background-color: #004080; /* Dark blue */
-    color: white;
-    padding: 20px;
-    text-align: center;
+
+/* Use the list-style property to remove dots from <li> tags */
+li {
+  list-style: none;
+
 }
 
-header img {
-    margin-bottom: 15px;
+
+/* Change header's background-color to #26d0c9, and height to 90px */
+.header {
+  background-color:#26d0c9;
+  height:90px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+/* Change header-logo's font-size to 36px, and float property to left */
+.header-logo {
+  font-size: 36px;
+  float :left;
+
+  /* Change the top & bottom padding to 20px, and left & right padding to 40px */
+  padding:20px 40px;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+
+/* Add CSS for <li> tags within header-list */
+.header-list li {
+  float: left;
+  padding: 33px 20px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+.header-list li a {
+  text-decoration: none; /* Remove underline */
+  color: black; /* Set text color */
+  cursor: pointer; /* Change cursor on hover */
 }
 
-nav ul li a:hover {
-    text-decoration: underline; /* Underline on hover */
+.main {
+  
+  /* Change the top & bottom padding to 100px, and left & right padding to 80px */
+  padding: 100px 80px;
+  
 }
 
-main {
-    padding: 20px;
+/* Change the font-size of <h1> tags within copy-container */
+.copy-container h1 {
+  font-size:140px;
 }
 
-h1, h2 {
-    color: #004080; /* Dark blue */
+/* Change the font-size of <h2> tags within copy-container */
+.copy-container h2 {
+  font-size:60px;
 }
 
-.about, .timetable, .contact {
-    background-color: #ffffff; /* White background for sections */
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 5px; /* Rounded corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+
+.contents {
+  height: 500px;
+
+  margin-top: 100px;
 }
 
-table {
-    width: 100%;
-    border-collapse: collapse;
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+
+  font-size: 28px;
+
+  padding-bottom: 15px;
+
+  margin-bottom: 50px;
+
+
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+.contents-item {
+  float: left;
+  margin-right: 40px;
 }
 
-th {
-    background-color: #004080; /* Dark blue for headers */
-    color: white;
+/* Change the font-size and margin-top of <p> tags within contents-item */
+.contents-item p {
+  font-size: 24px;
+  margin-top: 30px;
+  text-align-last: center;
 }
-.enquiry-form {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 5px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .enquiry-form h3 {
-            margin-bottom: 20px;
-        }
-        .enquiry-form label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .enquiry-form input, .enquiry-form textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            box-sizing: border-box;
-        }
-        .enquiry-form button {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        .enquiry-form button:hover {
-            background-color: #45a049;
-        }
-footer {
-    background-color: #004080; /* Dark blue */
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
 
 
 
+/* Change the color of <span> tags within copy-container */
+.copy-container span {
+  color:#ff4a4a;
+}
 
+/* Change contact-form's padding-top property to 100px */
+.contact-form {
+  padding-top: 100px;
+}
+
+/* Add CSS for <input> and <textarea> tags */
+input, textarea{
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+}
+
+/* Add CSS for contact-submit */
+.contact-submit {
+  background-color: #dee7ec;
+  color: #889eab;
+  width: 390px;
+}
+
+/* Change footer's background-color to #ceccf3, and height to 270px */
+.footer {
+  /* Change the background-color to #2f5167 */
+  background-color: #2f5167;
+  
+  /* Change the color to #fff */
+  color:#fff;
+  
+  /* Change the height to 120px */
+  height: 120px;
+  /* Change the padding for all sides to 40px */
+  padding :40px;
+}
+
+/* Change footer-logo's font-size and float property */
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+/* Change footer-list's float property */
+.footer-list {
+  float: right;
+}
+
+/* Add CSS for <li> tags within footer-list */
+.footer-list li {
+  padding-bottom:20px;
+}
